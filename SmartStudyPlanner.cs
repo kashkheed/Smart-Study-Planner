@@ -1154,16 +1154,16 @@ namespace SmartStudyPlanner
 
             planner.ReplaceData(new List<Module>());
             DateTime d = DateTime.Today;                                   // dates relative to today so due-soon/overdue appear
-            planner.AddModule("MOD002702", "Software Implementation");
-            planner.AddModule("MOD002510", "Database Systems");
-            planner.AddModule("MOD002655", "Web Technologies");
-            planner.AddTask("MOD002702", "Programming Exercise 5", "Finish loops and arrays practical", d.AddDays(2), 2, Priority.High, StudyStatus.InProgress);
-            planner.AddTask("MOD002702", "Smart Study Planner coursework", "Implement file I/O and recommender", d.AddDays(30), 20, Priority.High, StudyStatus.NotStarted);
-            planner.AddTask("MOD002702", "Revise C# collections", "Lists, dictionaries, LINQ", d.AddDays(10), 3, Priority.Medium, StudyStatus.NotStarted);
-            planner.AddTask("MOD002510", "SQL joins worksheet", "", d.AddDays(-1), 1.5, Priority.Medium, StudyStatus.NotStarted);
-            planner.AddTask("MOD002510", "Normalisation exercises", "1NF to BCNF", d.AddDays(6), 4, Priority.Low, StudyStatus.NotStarted);
-            planner.AddTask("MOD002655", "HTML/CSS portfolio page", "", d.AddDays(14), 6, Priority.Medium, StudyStatus.InProgress);
-            planner.AddTask("MOD002655", "Read JavaScript chapter 3", "", d.AddDays(-5), 2, Priority.Low, StudyStatus.Completed);
+            planner.AddModule("MOD002822", "Software Implementation");
+            planner.AddModule("MOD002823", "Database Systems");
+            planner.AddModule("MOD002824", "Web Technologies");
+            planner.AddTask("MOD002822", "Programming Exercise 5", "Finish loops and arrays practical", d.AddDays(2), 2, Priority.High, StudyStatus.InProgress);
+            planner.AddTask("MOD002822", "Smart Study Planner coursework", "Implement file I/O and recommender", d.AddDays(30), 20, Priority.High, StudyStatus.NotStarted);
+            planner.AddTask("MOD002822", "Revise C# collections", "Lists, dictionaries, LINQ", d.AddDays(10), 3, Priority.Medium, StudyStatus.NotStarted);
+            planner.AddTask("MOD002823", "SQL joins worksheet", "", d.AddDays(-1), 1.5, Priority.Medium, StudyStatus.NotStarted);
+            planner.AddTask("MOD002823", "Normalisation exercises", "1NF to BCNF", d.AddDays(6), 4, Priority.Low, StudyStatus.NotStarted);
+            planner.AddTask("MOD002824", "HTML/CSS portfolio page", "", d.AddDays(14), 6, Priority.Medium, StudyStatus.InProgress);
+            planner.AddTask("MOD002824", "Read JavaScript chapter 3", "", d.AddDays(-5), 2, Priority.Low, StudyStatus.Completed);
             planner.IsDirty = true;
             InputHelper.Success("Sample data loaded (3 modules, 7 tasks).");
         }
