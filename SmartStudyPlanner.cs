@@ -1,8 +1,7 @@
 // =====================================================================================
 //  MOD002702 Software Implementation 2026-27  -  Smart Study Planner (Part II)
-//  Console application written in C#.
 //
-//  Overview of the design (see the report for the UML diagram):
+//  Overview of the design:
 //    Priority / StudyStatus   - enums describing a task
 //    StudyTask                - one study task (title, description, due date, hours, ...)
 //    Module                   - a module (code + name) that owns a list of StudyTask objects
